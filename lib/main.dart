@@ -1,17 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/catalogScreen.dart';
-void main() {
-  runApp(const MyApp());
-}
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+import 'package:flutter_application_1/calendarApp.dart';
+void main() => runApp(CalendarApp());
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Каталог и Детали',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const CatalogScreen(),
-    );
-  }
-}
