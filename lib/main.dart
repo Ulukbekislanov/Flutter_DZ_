@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_application_1/calendarApp.dart';
-void main() => runApp(CalendarApp());
 
+import 'package:flutter/material.dart';
+import 'package:flutter_application_1/MemoryGameApp.dart';
+
+void main() => runApp(const MemoryGameApp());
