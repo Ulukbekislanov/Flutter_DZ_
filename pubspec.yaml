@@ -21,8 +21,4 @@ flutter:
   assets:
     - images/
 
-  fonts: 
-    - family: RobotoCondensed-Italic-VariableFont_wght
-      fonts:
-        - asset: fonts/RobotoCondensed-Italic-VariableFont_wght.ttf
 
